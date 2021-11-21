@@ -1,4 +1,5 @@
-﻿
+﻿'use strict';
+import './components/file/archivos.js'
 
 function Theme(newTheme) {
 	let newDivTheme = document.createElement("div");
@@ -25,5 +26,11 @@ function ElementLink(data) {
 }
 
 class Links {
-
+	constructor(file){
+		const data = ReadFile(file);
+		if (file !== false) {
+			this.data = JSON.parse(data);
+		}
+		console.log(this.data);
+	}
 }
