@@ -1,6 +1,7 @@
 ﻿'use strict';
 //import './components/file/archivos.js'
-import data from './data';
+//export const data = './data';
+import { data } from './data.js'
 
 function Theme(newTheme) {
 	let newDivTheme = document.createElement("div");
