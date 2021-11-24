@@ -1,6 +1,6 @@
 ﻿'use strict';
 // import './file/archivos.js'
-const archivos = require('./file/archivos.js')
+//const archivos = require('./file/archivos.js')
 
 
 const data = {
@@ -74,6 +74,8 @@ const data = {
 	}]
 }
 
-const file = './data.json';
-let json=true;
-console.log(archivos.WriteFile(file, data, json));
+//const file = './data.json';
+//let json=true;
+//console.log(archivos.WriteFile(file, data, json));
+
+export default data;

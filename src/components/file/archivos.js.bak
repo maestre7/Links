@@ -1,5 +1,5 @@
 ﻿
-exports WriteFile = function (path, content, flag='a+', json=false) {
+function WriteFile(path, content, flag='a+', json=false) {
 	const fs = require('fs');
 	
 	if (json === true) {
@@ -33,3 +33,5 @@ function ReadFile(path, encoding="utf-8", json=false) {
 }
 
 
+export default WriteFile;
+export default ReadFile;

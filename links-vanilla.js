@@ -1,5 +1,6 @@
 ﻿'use strict';
-import './components/file/archivos.js'
+//import './components/file/archivos.js'
+import data from './data';
 
 function Theme(newTheme) {
 	let newDivTheme = document.createElement("div");
@@ -26,11 +27,31 @@ function ElementLink(data) {
 }
 
 class Links {
-	constructor(file){
-		const data = ReadFile(file);
-		if (file !== false) {
-			this.data = JSON.parse(data);
-		}
+	constructor(data){
+		//const data = ReadFile(file);
+		//if (file !== false) {
+		//	this.data = JSON.parse(data);
+		//}
+		this.data = data;
 		console.log(this.data);
 	}
+
+	loadingData() {
+        let elementMain = document.querySelector("main");
+		for (let [key, value] of Object.entries(this.data)) {
+			newDivTheme = Theme(key);
+			divTheme = value.array.forEach(element => {
+				newListElement = ElementLink(element);
+				newDivTheme.appendChild(newListElement);
+
+				return newDivTheme;
+			});
+			elementMain.appendChild(divTheme)
+		};
+	}
 }
+
+
+
+
+Links(data);

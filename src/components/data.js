@@ -1,6 +1,7 @@
 ﻿'use strict';
 // import './file/archivos.js'
-const archivos = require('./file/archivos.js')
+//const archivos = require('./file/archivos.js')
+import WriteFile from './file/archivos'
 
 
 const data = {
