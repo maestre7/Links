@@ -1,5 +1,5 @@
 ﻿
-exports.WriteFile = function (path, content, flag='a+', json=false) {
+exports WriteFile = function (path, content, flag='a+', json=false) {
 	const fs = require('fs');
 	
 	if (json === true) {
