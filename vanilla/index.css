@@ -1,13 +1,21 @@
 * {
 	background-color:powderblue;
-
+	font-size: 20px;
 }
 
 h1 {
 	text-align:center;
 	background-color: #E7F908;
+	font-size: 40px;
 }
 
-h4 {
-	color: #E7F908;
+div {
+	padding: 15px;
+	text-decoration: underline;
+	margin-left: 15px;
+}
+
+li {	
+	font-size: 15px;
+	padding: 2px;
 }
