@@ -69,7 +69,7 @@ const data = {
 		href: 'https://learngitbranching.js.org/?locale=es_ES'
 	}],
 	otros: [{name: 'HolaMundo / Youtube - Recursividad, programación funcional en javascript',
-		hreft:'https://www.youtube.com/watch?v=AZd_CzcRhXs' },
+		href:'https://www.youtube.com/watch?v=AZd_CzcRhXs' },
 		{name: 'Freecodecamp',
 		href: 'https://www.freecodecamp.org/espanol/news/'
 	}]

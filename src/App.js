@@ -53,7 +53,9 @@ const data = {
 		{ name: 'React Developer Tools - Chrome',
 		href: 'https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es'},
 		{ name: 'React Developer Tools - FireFox',
-		href: 'https://addons.mozilla.org/es/firefox/addon/react-devtools/'		
+		href: 'https://addons.mozilla.org/es/firefox/addon/react-devtools/'	},
+		{ name: 'React-select',
+		href: 'https://react-select.com/home'
 	}],
 	ejercicios: [{ name:'Codewars',
 		href:'https://www.codewars.com/'},
@@ -67,7 +69,7 @@ const data = {
 		href: 'https://learngitbranching.js.org/?locale=es_ES'
 	}],
 	otros: [{name: 'HolaMundo / Youtube - Recursividad, programación funcional en javascript',
-		hreft:'https://www.youtube.com/watch?v=AZd_CzcRhXs' },
+		href:'https://www.youtube.com/watch?v=AZd_CzcRhXs' },
 		{name: 'Freecodecamp',
 		href: 'https://www.freecodecamp.org/espanol/news/'
 	}]
@@ -78,6 +80,7 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
+				<h1>Enlances</h1>
 			</header>
 			<main>
 				<Links data={data} />
