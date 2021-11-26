@@ -2,8 +2,8 @@
 
 .App-header {
 	text-align: center;
-	align-items: center;
-	justify-content: center;
+	/* align-items: center; */
+	/* justify-content: center; */
 	font-size: calc(10px + 2vmin);
 	color: white;
 	background-color: #282c34;
@@ -14,8 +14,7 @@ main {
 	display: flex;
     flex-direction: row;
 	flex-wrap: wrap;
-	/* align-items: center; */
-	justify-content: center;
+	justify-content: flex-start;
 	background-color: #F8FDF8;
 }
 

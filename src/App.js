@@ -68,9 +68,7 @@ const data = {
 		{ name: 'learngitbranching',
 		href: 'https://learngitbranching.js.org/?locale=es_ES'},
 		{ name: 'codecombat',
-		href: 'https://codecombat.com/'},
-		{name: 'learngitbranching',
-		href: 'https://learngitbranching.js.org/?locale=es_ES'
+		href: 'https://codecombat.com/'
 	}],
 	otros: [{name: 'HolaMundo / Youtube - Recursividad, programación funcional en javascript',
 		href:'https://www.youtube.com/watch?v=AZd_CzcRhXs' },

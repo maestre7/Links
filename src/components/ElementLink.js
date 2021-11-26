@@ -11,7 +11,7 @@ class ElementLink extends Component {
 	render () {
 		//rel = "noopener noreferrer" is to avoid a security flaw, in target='_blank'
 		return (
-			<li>
+			<li className='ElementLink'>
 				<a href={this.state.href} target='_blank' rel="noopener noreferrer">
 					{this.state.name}
 				</a>
