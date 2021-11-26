@@ -55,7 +55,11 @@ const data = {
 		{ name: 'React Developer Tools - FireFox',
 		href: 'https://addons.mozilla.org/es/firefox/addon/react-devtools/'	},
 		{ name: 'React-select',
-		href: 'https://react-select.com/home'
+		href: 'https://react-select.com/home'},
+		{ name: 'React_css',
+		href: 'https://www.w3schools.com/react/react_css.asp'},
+		{ name: 'React_sass',
+		href:'https://www.w3schools.com/react/react_sass.asp'
 	}],
 	ejercicios: [{ name:'Codewars',
 		href:'https://www.codewars.com/'},
@@ -85,6 +89,8 @@ function App() {
 			<main>
 				<Links data={data} />
 			</main>
+			<footer>
+			</footer>
 		</div>
 	);
 }

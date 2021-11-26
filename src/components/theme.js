@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ElementLink from './ElementLink'
+import './theme.css';
 
 
 class Theme extends Component {
@@ -15,7 +16,7 @@ class Theme extends Component {
 			elementLinks.push(<ElementLink key={index} data={data}/>)
 		}
 		return (
-			<div>{this.state.tittle.toUpperCase()}
+			<div className='theme'>{this.state.tittle.toUpperCase()}
 				{elementLinks}
 			</div>
 		)

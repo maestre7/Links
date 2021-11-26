@@ -20,4 +20,4 @@ class NewTheme extends Component {
 	}
 }
 
-export default Links;
+export default NewTheme;

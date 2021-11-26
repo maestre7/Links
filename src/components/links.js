@@ -11,13 +11,13 @@ class Links extends Component {
 		let theme = [];
 		
 		for (let [index, [tittle, value]] of Object.entries(Object.entries(this.state))) {
-			theme.push(<Theme key={index} className='theme' tittle={tittle} data={value} />);	
+			theme.push(<Theme key={index} tittle={tittle} data={value} />);	
 		}
 		
 		return (
-			<div>
+			<>
 				{theme}
-			</div>
+			</>
 		)	
 	}
 }
