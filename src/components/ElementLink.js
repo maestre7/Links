@@ -4,7 +4,6 @@ import React, { Component } from 'react';
 class ElementLink extends Component {
     constructor(props) {
         super(props);
-		console.log(props);
 		this.state = {name: props.data.name, href:props.data.href};
 	}
 	
