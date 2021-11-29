@@ -6,7 +6,11 @@ import './theme.css';
 class Theme extends Component {
     constructor(props) {
         super(props);
-		this.state = {tittle: props.tittle, data:props.data};
+		this.state = {tittle: props.tittle, data:props.data, setShowResults: false};
+	}
+	
+	showLinks() {
+		this.state.setShowResults = !this.state.setShowResults;
 	}
 	
 	render () {
@@ -16,8 +20,8 @@ class Theme extends Component {
 			elementLinks.push(<ElementLink key={index} data={data}/>)
 		}
 		return (
-			<div className='theme'>{this.state.tittle.toUpperCase()}
-				{elementLinks}
+			<div className='theme'>{this.state.tittle.toUpperCase()}<button onclick={this.showLinks}>+</button>
+				{this.state.setShowResults ? elementLinks : null}
 			</div>
 		)
 	}
