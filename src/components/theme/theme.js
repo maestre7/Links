@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ElementLink from './ElementLink'
+import ElementLink from '../elementlink/ElementLink'
 import './theme.css';
 
 

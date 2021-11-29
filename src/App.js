@@ -59,7 +59,9 @@ const data = {
 		{ name: 'React_css',
 		href: 'https://www.w3schools.com/react/react_css.asp'},
 		{ name: 'React_sass',
-		href:'https://www.w3schools.com/react/react_sass.asp'
+		href:'https://www.w3schools.com/react/react_sass.asp'}
+		{name: 'Import React',
+		href: 'https://www.bezkoder.com/absolute-import-react/'
 	}],
 	ejercicios: [{ name:'Codewars',
 		href:'https://www.codewars.com/'},
@@ -73,7 +75,11 @@ const data = {
 	otros: [{name: 'HolaMundo / Youtube - Recursividad, programación funcional en javascript',
 		href:'https://www.youtube.com/watch?v=AZd_CzcRhXs' },
 		{name: 'Freecodecamp',
-		href: 'https://www.freecodecamp.org/espanol/news/'
+		href: 'https://www.freecodecamp.org/espanol/news/'},
+		{name: 'Status codes',
+		href: 'https://developer.mozilla.org/es/docs/Web/HTTP/Status'},
+		{name: 'Visual Studio Code - keyboard-shortcuts',
+		href: 'https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf'
 	}]
 }
 
