@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
+import './ElementLink.css';
 
 
 class ElementLink extends Component {
     constructor(props) {
         super(props);
-		this.state = {name: props.data.name, href:props.data.href};
+		this.state = {name: props.data.name, href:props.data.href, del: props.del};
+		this.deleteElement = this.deleteElement.bind(this);
+	}
+	
+	deleteElement() {
+		this.state.del(this.state.name);
 	}
 	
 	render () {
@@ -14,6 +20,7 @@ class ElementLink extends Component {
 				<a href={this.state.href} target='_blank' rel="noopener noreferrer">
 					{this.state.name}
 				</a>
+				<button onClick={this.deleteElement}><sup> x </sup></button>
 			</li>
 		)
 	}

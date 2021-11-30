@@ -59,7 +59,7 @@ const data = {
 		{ name: 'React_css',
 		href: 'https://www.w3schools.com/react/react_css.asp'},
 		{ name: 'React_sass',
-		href:'https://www.w3schools.com/react/react_sass.asp'}
+		href:'https://www.w3schools.com/react/react_sass.asp'},
 		{name: 'Import React',
 		href: 'https://www.bezkoder.com/absolute-import-react/'
 	}],
