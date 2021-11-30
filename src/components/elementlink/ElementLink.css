@@ -3,9 +3,22 @@
 .ElementLink {
 	padding: 2px;
 	margin: 5px;
+	background: none;
 }
 
 .ElementLink > button {
 	border: none;
 	background: none;
+}
+
+.ElementLink > button > sup {
+	background: none;
+}
+
+.ElementLink > a { 
+	background: none;
+}
+
+.ElementLink > a:hover { 
+	font-size: 120%;
 }
