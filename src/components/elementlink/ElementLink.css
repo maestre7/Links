@@ -17,8 +17,9 @@
 
 .ElementLink > a { 
 	background: none;
+    text-decoration-line: none;
 }
 
 .ElementLink > a:hover { 
-	font-size: 120%;
+	text-decoration-line: underline;
 }
